@@ -25,7 +25,7 @@ class PolarArea extends React.Component {
         'rgba(153, 102, 255, 1)',
         'rgba(255, 159, 64, 1)'
     ];
-    this.labels = ["Excited”, “Cheerful”, “Good”, “Satisfied”, “Tender”, “Neutral”, “Dissatisfied”, “Unhappy”, “Distressed”,”Sorrowful”, “Hurt" ];
+    this.labels = ['Excited', 'Cheerful', 'Good', 'Satisfied', 'Tender', 'Neutral', 'Dissatisfied', 'Unhappy', 'Distressed','Sorrowful', 'Hurt' ];
     this.options = {scales: {yAxes: [{ticks: {beginAtZero: true}}]}}
     this.state = {
         data: {
